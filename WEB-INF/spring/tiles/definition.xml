@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="signUp" template="/WEB-INF/view/login/signUp.jsp"/>	
+	<definition name="signUpfail" template="/WEB-INF/view/login/signUpfail.jsp"/>	
+	<!-- 로그인 페이지 -->
+	<definition name="login" template="/WEB-INF/view/login/login.jsp"/>
+	<definition name="idCheck" template="/WEB-INF/view/login/idCheck.jsp"/>	
+	
+
+	
+	<!-- 메인 페이지 -->
+    <definition name="main" template="/WEB-INF/view/main.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+    </definition>
+    
+     <definition name="profile" template="/WEB-INF/view/menu/profile.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+    </definition>
+
+     <!-- 게시판 -->
+	<definition name="board_list" template="/WEB-INF/view/menu/board/board_list.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+	</definition>
+	<definition name="board_delete" template="/WEB-INF/view/menu/board/board_delete.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+	</definition>
+	<definition name="board_reply" template="/WEB-INF/view/menu/board/board_reply.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+	</definition>
+	<definition name="board_update" template="/WEB-INF/view/menu/board/board_update.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+	</definition>
+	<definition name="board_view" template="/WEB-INF/view/menu/board/board_view.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+	</definition>
+	<definition name="board_write" template="/WEB-INF/view/menu/board/board_write.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/inc/side.jsp" />        
+	</definition>				   
+    
+    
+    <!-- 관리자 페이지 -->
+    <definition name="admin" template="/WEB-INF/view/admin/admin.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/admin/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/admin/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/admin/inc/side.jsp" />        
+    </definition>
+
+    <definition name="admin_reg" template="/WEB-INF/view/admin/admin_reg.jsp" >
+        <put-attribute name="top" value="/WEB-INF/view/admin/inc/top.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/view/admin/inc/footer.jsp" />
+        <put-attribute name="side" value="/WEB-INF/view/admin/inc/side.jsp" />        
+    </definition>       
+</tiles-definitions>
